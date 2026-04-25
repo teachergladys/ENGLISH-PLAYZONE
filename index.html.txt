@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English with Gladys</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Cute font similar to your design -->
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="title-box">
+        <span class="welcome">Welcome to</span>
+        <h1>English with Gladys</h1>
+        <p>Design with my own work</p>
+    </div>
+
+    <!-- Buttons -->
+    <div class="menu">
+        <button onclick="showSection('greetings')">Greetings</button>
+        <button onclick="showSection('vocabulary')">Vocabulary</button>
+        <button onclick="showSection('games')">Games</button>
+        <button onclick="showSection('review')">Review</button>
+    </div>
+
+    <!-- Content area -->
+    <div id="content" class="content-box">
+        Click a button to start 🎉
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
